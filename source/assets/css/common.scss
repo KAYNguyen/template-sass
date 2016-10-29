@@ -1,0 +1,13 @@
+// Common
+.width-1 {}
+.list-1 {}
+.color-1 {}
+.float-l {float: left;}
+.float-r {float: right;}
+.hidden {display: none;}
+.invisible {visibility: hidden;}
+.loading {}
+
+.alert-layer {display: block; position: absolute; top: -1500px; left: -15000px; overflow: hidden; padding: 3px 5px; background: #edd540; color: #424242;
+  .message {margin: 0; padding: 0 0 0 5px;}
+}

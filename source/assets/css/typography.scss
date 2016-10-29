@@ -1,0 +1,16 @@
+// Typography
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+noscript {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  background: $body-bgcolor;
+  color: $text-color;
+  text-align: center;
+  @include opacity(0.75);
+}

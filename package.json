@@ -1,0 +1,48 @@
+{
+  "name": "template",
+  "description": "HTML5/CSS3/JS template",
+  "version": "0.1.0",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/lennguyen/template.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "node source/server.js",
+    "build": "grunt build",
+    "release": "grunt release",
+    "test": "grunt"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "jade": "0.30.0",
+    "less": "*"
+  },
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-cli": "0.1.11",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-contrib-imagemin": "0.1.4",
+    "grunt-htmlhint": "0.4.0",
+    "grunt-contrib-jshint": "0.7.2",
+    "grunt-contrib-csslint": "0.2.0",
+    "grunt-contrib-connect": "0.3.0",
+    "grunt-contrib-qunit": "0.4.0",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-less": "0.6.0",
+    "grunt-contrib-jade": "0.7.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-concat": "0.3.0",
+    "grunt-contrib-uglify": "0.2.7",
+    "grunt-contrib-cssmin": "0.6.1",
+    "grunt-usemin": "0.1.9",
+    "grunt-contrib-sass": "~0.8.1"
+  },
+  "keywords": [
+    "Frontend template"
+  ]
+}
